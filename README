@@ -12,5 +12,4 @@ How to add new Scan File
 	Example: git add 20120318.vm.931
 5. git commit -m 'current date'
 	Example: git commit -m '20120318'
-6. git remote add origin git@github.com:skyqtest/VIE-Scans.git
 7. git push -u origin master
