@@ -6,7 +6,7 @@ How to add new Scan File
 -- Please truncate title to keep spacing same. Do not abbreviate above example as 2012318.vm.931 --
 
 1. Open Terminal
-2. cd VIE-Scans
+2. cd /home/skyq/.ssh/VIE-Scans
 3. git init
 4. git add file
 	Example: git add 20120318.vm.931
