@@ -1,0 +1,15 @@
+How to add new Scan File
+
+0. Paste scan in VIE-Scans directory on desktop
+	Example: 20120318.vm.931
+-- 2012 March 18 Viewsonic Monitors at 931 --
+-- Please truncate title to keep spacing same. Do not abbreviate above example as 2012318.vm.931 --
+
+1. Open Terminal
+2. cd VIE-Scans
+3. git init
+4. git add file
+	Example: git add 20120318.vm.931
+5. git commit -m 'current date'
+	Example: git commit -m '20120318'
+7. git push -u origin master
