@@ -1,6 +1,6 @@
 How to add new Scan Files
 
->>> Automatic (optional. Script run nightly)
+>>> Automatic (optional as script run nightly)
 
 sh /home/skyq/scripts/commitpush.sh
 
