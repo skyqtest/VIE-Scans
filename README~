@@ -1,5 +1,13 @@
 How to add new Scan File
 
+
+>>> Automatic (optional. Run nightly)
+
+sh /home/skyq/scripts/commitpush.sh
+
+
+>>> Manual
+
 0. Paste scan in VIE-Scans directory on desktop
 	Example: 20120318.vm.931
 -- 2012 March 18 Viewsonic Monitors at 931 --
