@@ -1,6 +1,6 @@
 How to add new Scan Files to the cloud
 
->>> Automatic (optional as script is run nightly)
+>>> Automatic (Best. This will accomplish manual in one full swoop)
 
 sh /home/skyq/scripts/commitpush.sh
 
