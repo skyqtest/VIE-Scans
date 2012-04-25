@@ -1,0 +1,25 @@
+How to add new Scan Files to the cloud
+
+>>> Automatic (Best. This will accomplish manual in one full swoop)
+
+1. Open Terminal
+2. sh /home/skyq/scripts/commitpush.sh
+
+
+
+
+>>> Manual
+
+0. Paste scan in VIE-Scans directory on desktop
+	Example: 20120318.vm.931
+-- 2012 March 18 Viewsonic Monitors at 931 --
+-- Please truncate title to keep spacing same. Do not abbreviate above example as 2012318.vm.931 --
+
+1. Open Terminal (ctrl alt t)
+2. cd /home/skyq/.ssh/VIE-Scans
+3. git init
+4. git add file
+	Example: git add 20120318.vm.931
+5. git commit -m 'current date'
+	Example: git commit -m '20120318'
+6. git push -u origin master
