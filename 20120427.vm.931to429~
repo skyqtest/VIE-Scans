@@ -1,0 +1,41 @@
+How to add new Scan Files to the cloud
+
+>>> Automatic (Best. This will accomplish manual in one full swoop)
+
+1. Double click on commitpush.sh
+2. Select Run
+3. Open gitlog and determine if commit and push was succesful
+
+FORMULA:
+
+20120318.vm.931
+-- 2012 March 18 Viewsonic Monitors at 931
+
+20120108.dt.931to429 
+-- 2012 January 8 Dell Towers from 931 to 429
+
+
+
+>>> Manual
+
+0. Paste scan in VIE-Scans directory on desktop
+	Example: 20120318.vm.931
+-- 2012 March 18 Viewsonic Monitors at 931 --
+-- Please truncate title to keep spacing same. Do not abbreviate above example as 2012318.vm.931 --
+
+1. Open Terminal (ctrl alt t)
+2. cd /home/skyq/.ssh/VIE-Scans
+3. git init
+4. git add file
+	Example: git add 20120318.vm.931
+5. git commit -m 'current date'
+	Example: git commit -m '20120318'
+6. git push -u origin master
+
+
+
+>>> AUDIT
+
+1. cd /home/skyq/.ssh/VIE-Scans/
+2. grep -i serialnumber *
+Above example is not case sensitive
